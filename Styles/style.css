@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color: #111;
+    color: #fff;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    background-color: lightseagreen;
+    float: left;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    transition: 0.2s;
+    cursor: pointer;
+
+    box-shadow:  inset 5px 5px 5px rgba(255, 255, 255, 0.05),
+                inset  -5px -5px 5px rgba(0,0,0,0.5);
+}
+.clickEffect{
+    background-color: #fff;
+    color: lightseagreen;
+    
+    box-shadow: -5px -5px 5px rgba(0,0,0,0.3),
+                5px 5px 5px rgba(0,0,0,0.3),
+                inset  5px 5px 5px rgba(0,0,0,0.3);
+}
